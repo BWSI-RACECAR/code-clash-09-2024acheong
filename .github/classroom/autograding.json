@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "Test1",
+      "setup": "",
+      "run": "python3 licenseplate.py",
+      "input": "ABC123.",
+      "output": "7",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test2",
+      "setup": "",
+      "run": "python3 licenseplate.py",
+      "input": ".ON1123",
+      "output": "24",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test3",
+      "setup": "",
+      "run": "python3 licenseplate.py",
+      "input": ".BC.234",
+      "output": "168",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test4",
+      "setup": "",
+      "run": "python3 licenseplate.py",
+      "input": "..C.234",
+      "output": "4200",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test5",
+      "setup": "",
+      "run": "python3 licenseplate.py",
+      "input": "XY.....",
+      "output": "120960",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test6",
+      "setup": "",
+      "run": "python3 licenseplate.py",
+      "input": "A.C.2.4",
+      "output": "1344",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test7",
+      "setup": "",
+      "run": "python3 licenseplate.py",
+      "input": "A..1...",
+      "output": "302400",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test8",
+      "setup": "",
+      "run": "python3 licenseplate.py",
+      "input": "ABC....",
+      "output": "5040",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test9",
+      "setup": "",
+      "run": "python3 licenseplate.py",
+      "input": "...1234",
+      "output": "15600",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test10",
+      "setup": "",
+      "run": "python3 licenseplate.py",
+      "input": ".......",
+      "output": "78624000",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    }
+  ]
+}
